@@ -16,11 +16,6 @@ body {
   background-position: left 20px top -170px; // TODO: fix this for better positioning
 }
 
-.alternativeBody {
-  font-size: 16px;
-  line-height: 26px;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -68,4 +63,51 @@ h2 {
     font-size: 20px;
     line-height: 34px;
   }
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  font-style: normal;
+
+  @media (min-width: 1024px) {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.premiumText {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 34px;
+  }
+}
+
+.dollarText {
+  font-size: 65px;
+  line-height: 52px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.monthText {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.2px;
+}
+
+.buttonText {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -0.18px;
 }
