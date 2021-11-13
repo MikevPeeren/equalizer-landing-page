@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Equalizer Landing Page</title>
         <meta name="description" content="Equalizer Landing Page" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
       <main>Hello World</main>
