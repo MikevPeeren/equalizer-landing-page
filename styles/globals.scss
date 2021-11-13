@@ -6,9 +6,16 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 20px;
+  line-height: 34px;
   font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+}
+
+.alternativeBody {
+  font-size: 16px;
+  line-height: 26px;
 }
 
 a {
@@ -18,4 +25,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 52px;
 }
