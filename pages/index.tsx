@@ -1,25 +1,24 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
+
+import LOGO from "../public/logo.svg";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="backgroundImage  w-screen h-screen">
       <Head>
         <title>Equalizer Landing Page</title>
         <meta name="description" content="Equalizer Landing Page" />
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <main>
+      <main className="mx-4 my-10">
+        <header className="text-black">
+          <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
+        </header>
         We make your music sound extraordinary. A system audio equalizer
         specifically designed for Android and iOS. Freely tune the way your
-        music sounds with a professional grade parametric EQ & volume mixer.
-        Control bass, mids, treble, gain control, reverb, and more! Premium EQ
-        Get expert-level control with a robust equalizer, volume mixer, and
-        spatial audio. Take your listening experience to a whole new level and
-        access all our incredible features! $4 / month iOS Download Android
-        Download All rights reserved © Equalizer 2021 Have any problems? Contact
-        us via social media or email us at equalizer@example.com
       </main>
     </div>
   );
