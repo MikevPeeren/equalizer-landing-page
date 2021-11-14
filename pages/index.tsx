@@ -23,18 +23,18 @@ const Home: NextPage = () => {
           <header className="text-black">
             <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           </header>
-          <h1 className="text-black">
+          <h1 className="text-black break-words">
             We make your music sound extraordinary.
           </h1>
-          <h2 className="my-6 w-4/4 sm:w-3/4">
+          <h2 className="my-6 w-full sm:w-3/4">
             A system audio equalizer specifically designed for Android and iOS.
             Freely tune the way your music sounds with a professional grade
             parametric EQ & volume mixer. Control bass, mids, treble, gain
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center items-center bg-black w-full h-[600px] relative mt-40">
-          <div className="relative z-20 w-4/6 h-[850px]">
+        <div className="flex justify-center bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] relative mt-40 rounded-b-2xl">
+          <div className="relative z-20 w-4/6 -top-28">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
@@ -49,8 +49,8 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          {/* <div className="absolute z-20 h-[550px] bg-orange rounded-2xl px-6 py-10">
-            <div className="flex flex-col items-start">
+          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 bg-orange rounded-2xl">
+            <div className="flex flex-col items-start px-6 py-10">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
                 Get expert-level control with a robust equalizer, volume mixer,
@@ -96,18 +96,18 @@ const Home: NextPage = () => {
                 Android Download
               </button>
             </div>
-          </div> */}
+          </div>
         </div>
       </main>
 
-      <footer className="my-80">
+      <footer className="mt-20">
         <div className="mx-6 md:mx-8 lg:mx-32 my-10">
           <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           <p className="my-10">
             All rights reserved © Equalizer 2021 Have any problems? Contact us
             via social media or email us at equalizer@example.com
           </p>
-          <div className="flex flex-row justify-between w-2/5">
+          <div className="flex flex-row justify-between w-2/6">
             <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
             <Image src={INSTAGRAM} alt="Instagram" width={20} height={20} />
             <Image src={TWITTER} alt="Twitter" width={20} height={17} />
