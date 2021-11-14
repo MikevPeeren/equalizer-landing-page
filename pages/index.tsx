@@ -33,18 +33,23 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center items-center bg-black w-full h-[600px] relative top-40">
-          <div className="relative z-20 w-3/4 -top-52">
+        <div className="flex justify-center items-center bg-black w-full h-[600px] relative mt-40">
+          <div className="relative z-20 w-4/6 h-[850px]">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
               layout="responsive"
             />
           </div>
-          <div className="absolute z-10 top-0 w-[280px] h-[420px]">
-            <Image src={PATTERN_TWO} alt="Equalizer Logo" layout="responsive" />
+          <div className="absolute z-10 top-0 w-10/12 h-[430px]">
+            <Image
+              src={PATTERN_TWO}
+              aria-hidden="true"
+              alt=""
+              layout="responsive"
+            />
           </div>
-          {/* <div className="absolute z-20 bg-orange top-96 rounded-2xl px-6 py-10">
+          {/* <div className="absolute z-20 h-[550px] bg-orange rounded-2xl px-6 py-10">
             <div className="flex flex-col items-start">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
@@ -93,7 +98,6 @@ const Home: NextPage = () => {
             </div>
           </div> */}
         </div>
-        <div className="relative w-full"></div>
       </main>
 
       <footer className="my-80">
