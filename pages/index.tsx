@@ -18,9 +18,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <main>
-        <div className="mx-6 md:mx-8 lg:mx-32 my-10">
-          <header className="text-black">
+      <main className="background">
+        <div className="mx-6 md:mx-8 lg:mx-32">
+          <header className="text-black pt-14">
             <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           </header>
           <h1 className="text-black break-words">
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </h2>
         </div>
         <div className="flex justify-center bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] relative mt-40 rounded-b-2xl">
-          <div className="relative z-20 w-4/6 -top-28">
+          <div className="relative z-20 w-4/6 md:w-2/4 -top-28">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"

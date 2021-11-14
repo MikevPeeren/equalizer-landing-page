@@ -11,9 +11,6 @@ body {
     sans-serif;
 
   @apply bg-white;
-  background-image: url(/bg-main-mobile.png);
-  background-repeat: no-repeat;
-  background-position: left 20px top -170px; // TODO: fix this for better positioning
 }
 
 a {
@@ -87,6 +84,12 @@ h3 {
     font-size: 20px;
     line-height: 34px;
   }
+}
+
+.background {
+  background-image: url(/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right -200px top -250px;
 }
 
 .dollarText {
