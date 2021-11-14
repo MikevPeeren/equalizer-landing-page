@@ -5,6 +5,9 @@ import Image from "next/image";
 import LOGO from "../public/logo.svg";
 import PATTERN_TWO from "../public/bg-pattern-2.svg";
 import ILLUSTRATION_APP from "../public/illustration-app.png";
+import FACEBOOK from "../public/icon-facebook.svg";
+import INSTAGRAM from "../public/icon-instagram.svg";
+import TWITTER from "../public/icon-twitter.svg";
 
 const Home: NextPage = () => {
   return (
@@ -30,7 +33,6 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        {/* <div className="flex flex-col items-center justify-center"> */}
         <div className="flex justify-center items-center bg-black w-full h-[600px] relative top-40">
           <div className="relative z-20 w-3/4 -top-52">
             <Image
@@ -42,7 +44,7 @@ const Home: NextPage = () => {
           <div className="absolute z-10 top-0 w-[280px] h-[420px]">
             <Image src={PATTERN_TWO} alt="Equalizer Logo" layout="responsive" />
           </div>
-          <div className="absolute z-20 bg-orange top-96 rounded-2xl px-6 py-10">
+          {/* <div className="absolute z-20 bg-orange top-96 rounded-2xl px-6 py-10">
             <div className="flex flex-col items-start">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
@@ -89,14 +91,25 @@ const Home: NextPage = () => {
                 Android Download
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="relative w-full"></div>
-        {/* </div> */}
-        {/* <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} /> */}
       </main>
 
-      <footer></footer>
+      <footer className="my-80">
+        <div className="mx-6 md:mx-8 lg:mx-32 my-10">
+          <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
+          <p className="my-10">
+            All rights reserved © Equalizer 2021 Have any problems? Contact us
+            via social media or email us at equalizer@example.com
+          </p>
+          <div className="flex flex-row justify-between w-2/5">
+            <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
+            <Image src={INSTAGRAM} alt="Instagram" width={20} height={20} />
+            <Image src={TWITTER} alt="Twitter" width={20} height={17} />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
