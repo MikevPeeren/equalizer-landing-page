@@ -41,7 +41,7 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          <div className="absolute z-10 top-0 md:left-30 w-10/12 md:w-7/12 h-[430px] md:h-[200px] text-center">
+          <div className="absolute z-10 md:z-10 top-0 md:-top-20 md:left-52 w-10/12 md:w-5/12 h-[430px] md:h-[600px]">
             <Image
               src={PATTERN_TWO}
               aria-hidden="true"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-16 md:right-10 bg-orange rounded-2xl md:w-3/5">
+          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 bg-orange rounded-2xl md:w-3/5">
             <div className="flex flex-col items-start px-6 py-10">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
