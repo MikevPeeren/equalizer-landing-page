@@ -33,15 +33,15 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] relative mt-40 rounded-b-2xl">
-          <div className="relative z-20 w-4/6 md:w-2/4 -top-28">
+        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] relative mt-40 rounded-b-2xl">
+          <div className="relative z-20 w-4/6 md:w-2/5 -top-28 md:left-10 ">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
               layout="responsive"
             />
           </div>
-          <div className="absolute z-10 top-0 w-10/12 h-[430px]">
+          <div className="absolute z-10 top-0 md:left-30 w-10/12 md:w-7/12 h-[430px] md:h-[200px] text-center">
             <Image
               src={PATTERN_TWO}
               aria-hidden="true"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 bg-orange rounded-2xl">
+          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-16 md:right-10 bg-orange rounded-2xl md:w-3/5">
             <div className="flex flex-col items-start px-6 py-10">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
@@ -100,17 +100,19 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="mt-20">
+      <footer className="mt-20 md:mt-40">
         <div className="mx-6 md:mx-8 lg:mx-32 my-10">
           <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
-          <p className="my-10">
-            All rights reserved © Equalizer 2021 Have any problems? Contact us
-            via social media or email us at equalizer@example.com
-          </p>
-          <div className="flex flex-row justify-between w-2/6">
-            <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
-            <Image src={INSTAGRAM} alt="Instagram" width={20} height={20} />
-            <Image src={TWITTER} alt="Twitter" width={20} height={17} />
+          <div className="md:flex md:flex-row md:items-end md:justify-between">
+            <p className="mt-10 mb-10 md:mb-0 md:w-2/4">
+              All rights reserved © Equalizer 2021 Have any problems? Contact us
+              via social media or email us at equalizer@example.com
+            </p>
+            <div className="flex flex-row justify-between w-2/6 md:w-1/5 h-[20px]">
+              <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
+              <Image src={INSTAGRAM} alt="Instagram" width={20} height={20} />
+              <Image src={TWITTER} alt="Twitter" width={20} height={17} />
+            </div>
           </div>
         </div>
       </footer>
