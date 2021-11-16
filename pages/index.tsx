@@ -21,7 +21,15 @@ const Home: NextPage = () => {
       <main className="patternBackground">
         <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-70 lg:w-3/5">
           <header className="text-black pt-14">
-            <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
+            <Image
+              src={LOGO}
+              priority
+              placeholder="blur"
+              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
+              alt="Equalizer Logo"
+              width={147}
+              height={33}
+            />
           </header>
           <h1 className="text-black break-words md:w-4/5 lg:w-full">
             We make your music sound extraordinary.
@@ -39,6 +47,9 @@ const Home: NextPage = () => {
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
               layout="responsive"
+              priority
+              placeholder="blur"
+              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
             />
           </div>
           <div className="absolute z-10 md:z-10 top-0 md:-top-20 xl:-top-10 2xl:-top-0 md:left-52 xl:left-72 2xl:left-80 w-10/12 sm:w-10/12 md:w-5/12 xl:w-4/12 2xl:w-3/12 h-[430px] md:h-[600px]">
@@ -47,6 +58,9 @@ const Home: NextPage = () => {
               aria-hidden="true"
               alt=""
               layout="responsive"
+              priority
+              placeholder="blur"
+              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
             />
           </div>
           <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 lg:right-10 xl:right-20 bg-orange rounded-2xl md:w-3/5 lg:w-6/12 xl:w-5/12">
@@ -103,7 +117,15 @@ const Home: NextPage = () => {
       <footer className="mt-20 md:mt-40">
         <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-70 2xl:w-4/6 my-10 xl:flex xl:flex-row xl:justify-start xl:items-start">
           <div className="xl:mx-4 my-8">
-            <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
+            <Image
+              src={LOGO}
+              alt="Equalizer Logo"
+              priority
+              placeholder="blur"
+              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
+              width={147}
+              height={33}
+            />
           </div>
           <div className="md:flex md:flex-row md:items-start md:justify-between 2xl:justify-between w-full">
             <p className="mt-10 mb-10 md:mb-0 md:w-2/4 xl:mx-14">
