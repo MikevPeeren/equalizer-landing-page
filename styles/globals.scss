@@ -21,7 +21,14 @@ body {
   }
   @media (min-width: 1024px) {
     background-image: url(/bg-main-desktop.png);
-    background-position: right top -250px;
+    background-position: left top -250px;
+  }
+}
+.background {
+  @media (min-width: 1024px) {
+    background-image: url(/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
   }
 }
 
