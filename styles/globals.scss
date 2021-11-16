@@ -18,10 +18,11 @@ body {
 
   @media (min-width: 640px) {
     background-image: url(/bg-main-tablet.png);
+    background-position: left -250px top -250px;
   }
   @media (min-width: 1024px) {
     background-image: url(/bg-main-desktop.png);
-    background-position: left top -250px;
+    background-position: left -250px top -250px;
   }
 }
 .background {
