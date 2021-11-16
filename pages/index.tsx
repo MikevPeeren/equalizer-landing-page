@@ -101,14 +101,16 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="mt-20 md:mt-40">
-        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-96 my-10">
-          <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
-          <div className="md:flex md:flex-row md:items-end md:justify-between">
-            <p className="mt-10 mb-10 md:mb-0 md:w-2/4">
+        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-96 my-10 xl:flex xl:flex-row xl:justify-between xl:items-center">
+          <div className="xl:mx-4">
+            <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
+          </div>
+          <div className="md:flex md:flex-row md:items-end md:justify-between ">
+            <p className="mt-10 mb-10 md:mb-0 md:w-2/4 xl:mx-14">
               All rights reserved © Equalizer 2021 Have any problems? Contact us
               via social media or email us at equalizer@example.com
             </p>
-            <div className="flex flex-row justify-between w-2/6 md:w-1/5 h-[20px]">
+            <div className="flex flex-row justify-between xl:my-8 w-2/6 md:w-1/5">
               <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
               <Image src={INSTAGRAM} alt="Instagram" width={20} height={20} />
               <Image src={TWITTER} alt="Twitter" width={20} height={17} />
