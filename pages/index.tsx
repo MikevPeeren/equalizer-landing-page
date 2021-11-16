@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Equalizer Landing Page</title>
         <meta name="description" content="Equalizer Landing Page" />
-        <link rel="icon" href="/favicon-32x32.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="background">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] relative mt-40 rounded-b-2xl">
+        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] relative mt-40 rounded-b-2xl md:rounded-b-none">
           <div className="relative z-20 w-4/6 md:w-2/5 -top-28 md:left-10 ">
             <Image
               src={ILLUSTRATION_APP}
