@@ -89,7 +89,7 @@ h3 {
 .background {
   background-image: url(/bg-main-mobile.png);
   background-repeat: no-repeat;
-  background-position: right -200px top -250px;
+  // background-position: right -200px top -250px;
 
   @media (min-width: 640px) {
     background-image: url(/bg-main-tablet.png);

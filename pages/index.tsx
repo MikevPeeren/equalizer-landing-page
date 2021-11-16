@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="background">
-        <div className="mx-6 md:mx-8 lg:mx-12">
+        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52">
           <header className="text-black pt-14">
             <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           </header>
@@ -33,15 +33,15 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center md:justify-start bg-black h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[900px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-2xl md:mx-8 lg:mx-12">
-          <div className="relative z-20 w-4/6 md:w-2/5 lg:w-4/12 -top-28 lg:-top-48 md:left-10 ">
+        <div className="flex justify-center md:justify-start bg-black h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[600px] xl:h-[600px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-2xl md:mx-8 lg:mx-12 xl:mx-52">
+          <div className="relative z-20 w-4/6 md:w-2/5 lg:w-4/12 xl:w-4/12 -top-28 lg:-top-48 md:left-10 xl:left-20">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
               layout="responsive"
             />
           </div>
-          <div className="absolute z-10 md:z-10 top-0 md:-top-20 md:left-52 w-10/12 md:w-5/12 h-[430px] md:h-[600px]">
+          <div className="absolute z-10 md:z-10 top-0 md:-top-20 xl:-top-10 md:left-52 xl:left-72 w-10/12 md:w-5/12 xl:w-4/12 h-[430px] md:h-[600px]">
             <Image
               src={PATTERN_TWO}
               aria-hidden="true"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 lg:right-10 bg-orange rounded-2xl md:w-3/5 lg:w-6/12">
+          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 lg:right-10 xl:right-20 bg-orange rounded-2xl md:w-3/5 lg:w-6/12 xl:w-5/12">
             <div className="flex flex-col items-start px-6 py-10">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                 <span className="monthText text-white mx-4">/ month</span>
               </div>
               <button
-                className="flex items-center justify-center my-6 lg:my-8 buttonText bg-black text-white rounded-2xl w-full p-4"
+                className="flex items-center justify-center mt-4 mb-2 lg:my-2 xl:my-2 buttonText bg-black text-white rounded-2xl w-full p-4"
                 type="button"
               >
                 <svg
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                 iOS Download
               </button>
               <button
-                className="flex items-center justify-center my-4 lg:my-6 buttonText bg-white text-black rounded-2xl w-full p-4"
+                className="flex items-center justify-center my-2 lg:my-2 xl:my-2 buttonText bg-white text-black rounded-2xl w-full p-4"
                 type="button"
               >
                 <svg
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="mt-20 md:mt-40">
-        <div className="mx-6 md:mx-8 lg:mx-12 my-10">
+        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 my-10">
           <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           <div className="md:flex md:flex-row md:items-end md:justify-between">
             <p className="mt-10 mb-10 md:mb-0 md:w-2/4">
