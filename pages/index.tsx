@@ -108,7 +108,8 @@ const Home: NextPage = () => {
           <div className="md:flex md:flex-row md:items-end md:justify-between ">
             <p className="mt-10 mb-10 md:mb-0 md:w-2/4 xl:mx-14">
               All rights reserved © Equalizer 2021 Have any problems? Contact us
-              via social media or email us at equalizer@example.com
+              via social media or email us at{" "}
+              <strong>equalizer@example.com</strong>
             </p>
             <div className="flex flex-row justify-between xl:my-8 w-2/6 md:w-1/5">
               <Image src={FACEBOOK} alt="Facebook" width={20} height={20} />
