@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nextjs-tailwindcss-mobile-first-Tj5bK7Mgr)
 - Live Site URL: [Website](https://equalizer-landing-page-two.vercel.app/)
 
 ## My process
