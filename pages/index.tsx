@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="background">
-        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52">
+        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-96">
           <header className="text-black pt-14">
             <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           </header>
@@ -33,15 +33,15 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center md:justify-start bg-black h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[600px] xl:h-[600px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-2xl md:mx-8 lg:mx-12 xl:mx-52">
-          <div className="relative z-20 w-4/6 sm:w-6/12 md:w-2/5 lg:w-4/12 xl:w-4/12 -top-28 lg:-top-48 md:left-10 xl:left-20">
+        <div className="flex justify-center md:justify-start bg-black h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[600px] xl:h-[600px] 2xl:h-[800px] 2xl:w-2/4 relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-2xl md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-96">
+          <div className="relative z-20 w-4/6 sm:w-6/12 md:w-2/5 lg:w-4/12 xl:w-4/12 2xl:w-4/12 -top-28 lg:-top-48 md:left-10 xl:left-20 2xl:left-20">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
               layout="responsive"
             />
           </div>
-          <div className="absolute z-10 md:z-10 top-0 md:-top-20 xl:-top-10 md:left-52 xl:left-72 w-10/12 sm:w-10/12 md:w-5/12 xl:w-4/12 h-[430px] md:h-[600px]">
+          <div className="absolute z-10 md:z-10 top-0 md:-top-20 xl:-top-10 2xl:-top-0 md:left-52 xl:left-72 2xl:left-96 w-10/12 sm:w-10/12 md:w-5/12 xl:w-4/12 2xl:w-4/12 h-[430px] md:h-[600px]">
             <Image
               src={PATTERN_TWO}
               aria-hidden="true"
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="mt-20 md:mt-40">
-        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 my-10">
+        <div className="mx-6 md:mx-8 lg:mx-12 xl:mx-52 2xl:mx-96 my-10">
           <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           <div className="md:flex md:flex-row md:items-end md:justify-between">
             <p className="mt-10 mb-10 md:mb-0 md:w-2/4">

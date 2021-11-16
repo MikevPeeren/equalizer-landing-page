@@ -11,6 +11,18 @@ body {
     sans-serif;
 
   @apply bg-white;
+
+  background-image: url(/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right -200px top -250px;
+
+  @media (min-width: 640px) {
+    background-image: url(/bg-main-tablet.png);
+  }
+  @media (min-width: 1024px) {
+    background-image: url(/bg-main-desktop.png);
+    background-position: right top -250px;
+  }
 }
 
 a {
@@ -83,19 +95,6 @@ h3 {
   @media (min-width: 1024px) {
     font-size: 20px;
     line-height: 34px;
-  }
-}
-
-.background {
-  background-image: url(/bg-main-mobile.png);
-  background-repeat: no-repeat;
-  // background-position: right -200px top -250px;
-
-  @media (min-width: 640px) {
-    background-image: url(/bg-main-tablet.png);
-  }
-  @media (min-width: 1024px) {
-    background-image: url(/bg-main-desktop.png);
   }
 }
 
