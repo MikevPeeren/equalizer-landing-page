@@ -25,11 +25,17 @@ body {
     background-position: left -250px top -250px;
   }
 }
-.background {
+
+.patternBackground {
+  @media (min-width: 768px) {
+    background-image: url(/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: right -50px top -50px;
+  }
   @media (min-width: 1024px) {
     background-image: url(/bg-pattern-1.svg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right -50px top 100px;
   }
 }
 
