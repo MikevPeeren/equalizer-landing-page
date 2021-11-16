@@ -33,8 +33,8 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] relative mt-40 rounded-b-2xl md:rounded-b-none">
-          <div className="relative z-20 w-4/6 md:w-2/5 -top-28 md:left-10 ">
+        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[900px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-b-none">
+          <div className="relative z-20 w-4/6 md:w-2/5 lg:w-4/12 -top-28 lg:-top-48 md:left-10 ">
             <Image
               src={ILLUSTRATION_APP}
               alt="Illustration of the APP"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               layout="responsive"
             />
           </div>
-          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 bg-orange rounded-2xl md:w-3/5">
+          <div className="absolute z-20 -bottom-8 xxs:-bottom-10 xs:-bottom-10 md:-bottom-28 md:right-10 lg:right-10 bg-orange rounded-2xl md:w-3/5 lg:w-6/12">
             <div className="flex flex-col items-start px-6 py-10">
               <h3 className="text-white">Premium EQ</h3>
               <p className="premiumText text-white my-4 lg:my-6">
