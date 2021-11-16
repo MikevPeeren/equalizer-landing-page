@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="background">
-        <div className="mx-6 md:mx-8 lg:mx-32">
+        <div className="mx-6 md:mx-8 lg:mx-12">
           <header className="text-black pt-14">
             <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           </header>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             control, reverb, and more!
           </h2>
         </div>
-        <div className="flex justify-center md:justify-start bg-black w-full h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[900px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-b-none">
+        <div className="flex justify-center md:justify-start bg-black h-[1000px] xxs:h-[1100px] xs:h-[1200px] md:h-[600px] lg:h-[900px] relative mt-40 lg:mt-60 rounded-b-2xl md:rounded-2xl md:mx-8 lg:mx-12">
           <div className="relative z-20 w-4/6 md:w-2/5 lg:w-4/12 -top-28 lg:-top-48 md:left-10 ">
             <Image
               src={ILLUSTRATION_APP}
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="mt-20 md:mt-40">
-        <div className="mx-6 md:mx-8 lg:mx-32 my-10">
+        <div className="mx-6 md:mx-8 lg:mx-12 my-10">
           <Image src={LOGO} alt="Equalizer Logo" width={147} height={33} />
           <div className="md:flex md:flex-row md:items-end md:justify-between">
             <p className="mt-10 mb-10 md:mb-0 md:w-2/4">

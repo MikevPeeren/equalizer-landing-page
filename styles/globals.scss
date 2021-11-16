@@ -90,6 +90,13 @@ h3 {
   background-image: url(/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: right -200px top -250px;
+
+  @media (min-width: 640px) {
+    background-image: url(/bg-main-tablet.png);
+  }
+  @media (min-width: 1024px) {
+    background-image: url(/bg-main-desktop.png);
+  }
 }
 
 .dollarText {
